@@ -1,5 +1,5 @@
-package br.com.br.fanfootball.util;
-import br.com.br.fanfootball.DAO.CargoDao;
+package br.com.fanfootball.util;
+import br.com.fanfootball.DAO.CargoDao;
 import br.com.fanfootball.controller.Cargo;
 
 public class Teste {

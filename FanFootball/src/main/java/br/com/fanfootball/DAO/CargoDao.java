@@ -1,4 +1,4 @@
-package br.com.br.fanfootball.DAO;
+package br.com.fanfootball.DAO;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
