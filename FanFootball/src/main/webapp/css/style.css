@@ -9,7 +9,7 @@ body{
 
 .button{
   width:100px;
-  background:#3399cc;
+  background:#D7DF01;
   display:block;
   margin:0 auto;
   margin-top:1%;
@@ -23,7 +23,7 @@ body{
 }
 
 .button:hover{
-  background:#2288bb;
+  background:#FFFF00;
 }
 
 #login{
@@ -45,7 +45,7 @@ body{
 }
 
 #login h1{
-  background:#3399cc;
+  background:#D7DF01;
   padding:20px 0;
   font-size:140%;
   font-weight:300;
@@ -71,7 +71,7 @@ input[type="email"],input[type="password"]{
 
 input[type="button"]{
   width:100%;
-  background:#3399cc;
+  background:#D7DF01;
   border:0;
   padding:4%;
   font-family:'Open Sans',sans-serif;
@@ -83,5 +83,5 @@ input[type="button"]{
 }
 
 input[type="button"]:hover{
-  background:#2288bb;
+  background:#FFFF00;
 }
