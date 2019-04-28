@@ -1,6 +1,6 @@
 package br.com.fanfootball.util;
-import br.com.fanfootball.DAO.CargoDao;
-import br.com.fanfootball.controller.Cargo;
+import br.com.fanfootball.dao.CargoDao;
+import br.com.fanfootball.entity.Cargo;
 
 public class Teste {
 

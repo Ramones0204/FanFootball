@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<title>Cargos</title>
+<title>Marcas</title>
 
 <!-- Bootstrap -->
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,22 +29,26 @@
 	<div class="container">
 
 		<div class="page-header">
-			<h1>Gestão de Cargos</h1>
+			<h1>Gestão de Marcas</h1>
 		</div>
 
 		<div class="col-sm-4">
 			<form>
 				<div class="form-group">
-					<label for="nomeCargo">Nome Cargo</label> <input type="text"
-						class="form-control" id="nomeCargo">
+					<label for="nomeMarca">Nome da Marca</label> <input type="text"
+						class="form-control" id="nomeMarca">
 				</div>
-				<div class="form-group">
-					<label for="valorSalario">Salario</label> <input type="number"
-						class="form-control" id="valorSalario">
+				<label for="nomeCargo">Logo da Marca</label>
+				<div class="custom-file">
+					<input type="file" class="custom-file-input"
+						id="validatedCustomFile" required> <label
+						class="custom-file-label" for="validatedCustomFile"></label>
 				</div>
+
 				<button type="submit" class="btn btn-success">Salvar</button>
 				<button type="submit" class="btn btn-danger">Deletar</button>
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#janela">Listar</button>
+				<button type="button" class="btn btn-info" data-toggle="modal"
+					data-target="#janela">Listar</button>
 
 				<div class="modal" id="janela">
 					<div class="modal-dialog modal-sm6">
@@ -54,7 +58,7 @@
 								<button type="button" class="close" data-dismiss="modal">
 									<span>&times;</span>
 								</button>
-								<h4 class="modal-title">Lista de Cargos</h4>
+								<h4 class="modal-title">Lista de Marcas</h4>
 							</div>
 							<!-- corpo -->
 							<table
@@ -63,11 +67,10 @@
 									<tr>
 										<th>Id</th>
 										<th>Nome</th>
-										<th>Salário</th>
 									</tr>
 								</thead>
 								<tbody>
-									
+
 								</tbody>
 							</table>
 
@@ -83,7 +86,6 @@
 						</div>
 					</div>
 				</div>
-
 
 
 			</form>

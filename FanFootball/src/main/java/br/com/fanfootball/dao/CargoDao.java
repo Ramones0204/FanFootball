@@ -1,9 +1,8 @@
-package br.com.fanfootball.DAO;
+package br.com.fanfootball.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
-
-import br.com.fanfootball.controller.Cargo;
+import br.com.fanfootball.entity.Cargo;
 import br.com.fanfootball.factory.ConexaoJpa;
 
 public class CargoDao {

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<title>Cargos</title>
+<title>Tipo Produtos</title>
 
 <!-- Bootstrap -->
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,65 +29,57 @@
 	<div class="container">
 
 		<div class="page-header">
-			<h1>Gestão de Cargos</h1>
+			<h1>Gestão Tipo Produtos</h1>
 		</div>
 
 		<div class="col-sm-4">
 			<form>
 				<div class="form-group">
-					<label for="nomeCargo">Nome Cargo</label> <input type="text"
-						class="form-control" id="nomeCargo">
-				</div>
-				<div class="form-group">
-					<label for="valorSalario">Salario</label> <input type="number"
-						class="form-control" id="valorSalario">
+					<label for="descricao">Descrição</label> <input type="text"
+						class="form-control" id="descricao">
 				</div>
 				<button type="submit" class="btn btn-success">Salvar</button>
 				<button type="submit" class="btn btn-danger">Deletar</button>
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#janela">Listar</button>
-
-				<div class="modal" id="janela">
-					<div class="modal-dialog modal-sm6">
-						<div class="modal-content">
-							<!-- cabecalho -->
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">
-									<span>&times;</span>
-								</button>
-								<h4 class="modal-title">Lista de Cargos</h4>
-							</div>
-							<!-- corpo -->
-							<table
-								class="table table-striped table-bordered table-hover table-condensed">
-								<thead>
-									<tr>
-										<th>Id</th>
-										<th>Nome</th>
-										<th>Salário</th>
-									</tr>
-								</thead>
-								<tbody>
-									
-								</tbody>
-							</table>
-
-							<!-- rode -->
-
-							<div class="modal-footer">
-								<button type="button" class="btn btn primary"
-									data-dismiss="modal">Selecionar</button>
-
-								<button type="button" class="btn btn danger"
-									data-dismiss="modal">cancelar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-
+				<button type="button" class="btn btn-info" data-toggle="modal"
+					data-target="#janela">Listar</button>
 			</form>
 		</div>
+
+		<div class="modal" id="janela">
+			<div class="modal-dialog modal-sm6">
+				<div class="modal-content">
+					<!-- cabecalho -->
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+						<h4 class="modal-title">Lista Tipo Produto</h4>
+					</div>
+					<!-- corpo -->
+					<table
+						class="table table-striped table-bordered table-hover table-condensed">
+						<thead>
+							<tr>
+								<th>Id</th>
+								<th>Descrição</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+
+					<!-- rode -->
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn primary" data-dismiss="modal">Selecionar</button>
+
+						<button type="button" class="btn btn danger" data-dismiss="modal">cancelar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 
 
 	</div>
