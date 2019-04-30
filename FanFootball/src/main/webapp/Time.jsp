@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Menu/style.css">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <title>Times</title>
@@ -29,17 +30,17 @@
 	<div class="container">
 
 		<div class="page-header">
-			<h1>Gestão de Times</h1>
+			<h1 style="color: #FFFFFF;">Gestão de Times</h1>
 		</div>
 
 		<div class="col-sm-4">
 			<form>
 				<div class="form-group">
-					<label for="nomeCargo">Nome do Time</label> <input type="text"
+					<label style="color: #FFFFFF;">Nome do Time</label> <input type="text"
 						class="form-control" id="nomeTime">
 				</div>
 				<div class="form-group">
-					<label for="regiao">Região</label> <select id="regiao" class="form-control form-control-sm">
+					<label style="color: #FFFFFF;">Região</label> <select id="regiao" class="form-control form-control-sm">
 					<option value="">Selecione</option>
 						<option value="AC">Centro-Oeste</option>
 						<option value="AL">Norte</option>
@@ -49,7 +50,7 @@
 						</select>
 				</div>
 				<div class="form-group">
-					<label for="estado">Estado</label> <select id="estado" class="form-control form-control-sm">
+					<label style="color: #FFFFFF;">Estado</label> <select id="estado" class="form-control form-control-sm">
 						<option value="">Selecione</option>
 						<option value="AC">Acre</option>
 						<option value="AL">Alagoas</option>
@@ -81,7 +82,7 @@
 						</select>
 				</div>
 				<div class="form-group">
-					<label for="tipo">Tipo Cluble</label> <select id="tipo"
+					<label style="color: #FFFFFF;">Tipo Cluble</label> <select id="tipo"
 						class="form-control form-control-sm">
 
 						<option selected>Clube</option>
@@ -89,7 +90,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="pais">Pais</label> <select id="pais"
+					<label style="color: #FFFFFF;">Pais</label> <select id="pais"
 						class="form-control form-control-sm">
 						<option value="África do Sul">África do Sul</option>
 						<option value="Albânia">Albânia</option>
@@ -270,7 +271,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="estado">Liga Do Clube</label> <input type="text"
+					<label style="color: #FFFFFF;">Liga Do Clube</label> <input type="text"
 						class="form-control" id="ligaClube">
 				</div>
 

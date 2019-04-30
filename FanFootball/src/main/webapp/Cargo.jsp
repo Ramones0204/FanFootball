@@ -5,9 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Menu/style.css">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <title>Cargos</title>
+
 
 <!-- Bootstrap -->
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,22 +31,23 @@
 	<div class="container">
 
 		<div class="page-header">
-			<h1>Gestão de Cargos</h1>
+			<h1 style="color: #FFFFFF;">Gestão de Cargos</h1>
 		</div>
 
 		<div class="col-sm-4">
 			<form>
 				<div class="form-group">
-					<label for="nomeCargo">Nome Cargo</label> <input type="text"
+					<label style="color: #FFFFFF;">Nome Cargo</label> <input type="text"
 						class="form-control" id="nomeCargo">
 				</div>
 				<div class="form-group">
-					<label for="valorSalario">Salario</label> <input type="number"
+					<label style="color: #FFFFFF;">Salario</label> <input type="number"
 						class="form-control" id="valorSalario">
 				</div>
 				<button type="submit" class="btn btn-success">Salvar</button>
 				<button type="submit" class="btn btn-danger">Deletar</button>
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#janela">Listar</button>
+				<button type="button" class="btn btn-info" data-toggle="modal"
+					data-target="#janela">Listar</button>
 
 				<div class="modal" id="janela">
 					<div class="modal-dialog modal-sm6">
@@ -67,7 +70,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									
+
 								</tbody>
 							</table>
 

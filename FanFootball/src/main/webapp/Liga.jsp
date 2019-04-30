@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Menu/style.css">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <title>Ligas</title>
@@ -29,13 +30,13 @@
 	<div class="container">
 
 		<div class="page-header">
-			<h1>Gestão Ligas</h1>
+			<h1 style="color: #FFFFFF;">Gestão Ligas</h1>
 		</div>
 
 		<div class="col-sm-4">
 			<form>
 				<div class="form-group">
-					<label for="nomeCargo">Nome da Liga</label> <input type="text"
+					<label style="color: #FFFFFF;">Nome da Liga</label> <input type="text"
 						class="form-control" id="nomeCargo">
 				</div>
 				<button type="submit" class="btn btn-success">Salvar</button>
